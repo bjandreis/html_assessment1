@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Saline | Contact Me</title>
+</head>
+
+<body>
+    <hr>
+    <p><a href="./index.html">Home</a> | <a href="./contact_me.html">Contact Me</a></p>
+    <hr>
+    <h1>Contact Me</h1>
+    <p>If you'd like to contact me, you can reach me via email.</p>
+    <hr>
+
+    <h3>My Contact Information</h3>
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Brandon Andreis</td>
+            <td>bjandreis@gmail.com</td>
+        </tr>
+    </table>
+
+    <h3>Submit a Form</h3>
+    <p>Tell me your name, your email address and your message and click the submit button. I'll get back to you as soon
+        as I can.</p>
+
+    <form action="./contact_handling.html" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="user_name" required>
+        <br><br>
+        <label for="mail">Email:</label>
+        <input type="email" id="mail" name="user_mail" required>
+        <br><br>
+        <label for="msg">Message:</label><br>
+        <textarea id="msg" name="user_message" cols="108" rows="12" required></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
